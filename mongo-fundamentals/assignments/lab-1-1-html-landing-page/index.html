@@ -406,13 +406,9 @@
   </style>
 </head>
 <body>
-
-<p>Module: Foundation<br>Prerequisite Videos: 1, 2, 3, 5, 6<br>Assignment: Lab<br>Serial: 2</p>
-<h1 style="background-color: #DDEBF1;">Lab 1 - Part 1 - HTML</h1>
-<p><strong>Build a Landing Page! ✈️</strong></p>
 <p>Your assignment, should you choose to accept it, (not sure you have much choice there…) is to create a landing page.</p>
 <p>A landing page, you say? Yes, you will be making a landing page based on a real page out there in the world. You will be mimicking the structure and style of a page but with your own content.</p>
-<h2 style="background-color: #FBF3DB;">Goal Overview</h2>
+<div class="heading-block h2-block"><h2>Goal Overview</h2></div>
 <ul>
 <li>Become comfortable with <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools</a></li>
 <li>Be able to mimic the structure and style of pages using html structure and css rules</li>
@@ -420,7 +416,7 @@
 <li>Understand and use semantic HTML elements</li>
 <li>Build a beautiful static landing page</li>
 </ul>
-<h2 style="background-color: #FBF3DB;">Getting Started</h2>
+<div class="heading-block h2-block"><h2>Getting Started</h2></div>
 <p>🚀 Please use the repository created for you in <a href="http://classflow.brunchlabs.com">classflow.brunchlabs.com</a>. There is a GitHub repository for you under the CS52 Class GitHub organization and gives course staff access. Please use the provided repo for this assignment — do not use a personal repo! </p>
 <p>🚀 We’ll be choosing a landing page website to flatter. And by flatter, I mean rip-off. But by rip-off, I mean reconstruct a clean version using our own content. You’ll be looking at some webpages, and then inspecting them and seeing how much of the look and feel you can copy onto your own page.</p>
 <p>Here, I chose slack.com (it no longer looks like this).</p>
@@ -478,34 +474,34 @@
 <p><strong>No functionality needs to implemented.</strong> No JS, or any external libraries or CSS frameworks are allowed for this assignment. You can do all of it was just the HTML/CSS from scratch. Don’t worry it’ll be fun!</p>
 <p>Using your fresh HTML and CSS skills you will make an <strong>HTML and CSS only</strong> version of this landing page (no JS allowed). ❗None of the links or functionality needs to be there, it just needs to look good and be laid out properly.</p>
 <p>All anchor tags should look like this:</p>
-<div class="code-block"><div class="code-header"><span class="code-lang">HTML</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span></div><pre><code class="language-html">&lt;a href=&quot;#&quot;&gt;&lt;/a&gt;</code></pre></div></div>
+<div class="code-block"><div class="code-header"><span class="code-lang">HTML</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span></div><pre><code class="language-html">&lt;a href="#"&gt;&lt;/a&gt;</code></pre></div></div>
 <p>Links to nowhere.</p>
 <p><strong>Simplify a lot!</strong> This is more re-imagining than it is making a carbon copy. You’ll very much need to simplify and leave things out. You will submit both the original that you used for inspiration and your version, but what we are looking for is for a clever adaptation given the limitations of no javascript.</p>
 <p><strong>Note:</strong> You <strong>can and should use</strong> the <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools Inspector</a> 🔍 to examine the structure of the original page. You’ll find it is really messy and complicated! Although it is a good idea to inspect individual elements (for instance: a button to see how they styled the borders) it won’t really help you much to try to copy more. If your code blatantly includes un-cited code copied from one of these websites or another students assignment, that will be considered an honor code violation ⚠️. Ask me if you have questions about this.</p>
-<h2 style="background-color: #FBF3DB;">PART 1: HTML</h2>
-<h3>Dive Right In!</h3>
-<p>🚀 Start in the provided repo by <a href="http://classmoji.brunchlabs.com">classmoji.brunchlabs.com</a>.  It will look like <code>dartmouth-cs52-TERM/lab1-landingpage-yourgithubusername</code>. Please do not work in your own repo — use the class provided repository only.</p>
-<p>🚀 Open up your code editor and create an <code>index.html</code> and a <code>style.css</code> file in the root of the folder. </p>
+<div class="heading-block h2-block"><h2>PART 1: HTML</h2></div>
+<div class="heading-block h3-block"><h3>Dive Right In!</h3></div>
+<p>🚀&nbsp;Start in the provided repo by <a href="http://classmoji.brunchlabs.com">classmoji.brunchlabs.com</a>.  It will look like <code>dartmouth-cs52-TERM/lab1-landingpage-yourgithubusername</code>. Please do not work in your own repo — use the class provided repository only.</p>
+<p>🚀&nbsp;Open up your code editor and create an <code>index.html</code> and a <code>style.css</code> file in the root of the folder. </p>
 <ul>
-<li><p>basic html page</p>
+<li>basic html page</li>
+</ul>
 <div class="code-block"><div class="code-header"><span class="code-lang">HTML</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span><span class="line-number">8</span></div><pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;My Landing Page&lt;/title&gt;
-    &lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href="style.css" rel="stylesheet" /&gt;
   &lt;/head&gt;
   &lt;body&gt;&lt;/body&gt;
 &lt;/html&gt;</code></pre></div></div>
-</li>
-<li><p>basic style.css</p>
+<ul>
+<li>basic style.css</li>
+</ul>
 <div class="code-block"><div class="code-header"><span class="code-lang">CSS</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span></div><pre><code class="language-css">    body {
       color: rgb(5, 5, 5;
       background-color: rgb(252, 252, 252);
     }</code></pre></div></div>
-</li>
-</ul>
-<p>🚀 Link your <code>style.css</code> file into the head of your html file. (but no CSS allowed for the first part)</p>
-<h3>Outline</h3>
+<p>🚀&nbsp;Link your <code>style.css</code> file into the head of your html file. (but no CSS allowed for the first part)</p>
+<div class="heading-block h3-block"><h3>Outline</h3></div>
 <p>In HTML only, outline the main elements you envision for the page. Here’s some hints:</p>
 <ul>
 <li>remember to use semantic elements that we discussed in class.</li>
@@ -518,46 +514,36 @@
 <p>Don’t worry about styling 💇 at this point. Just lay things out in an order that makes sense to you. BUT do think about how to label your structure.  Use <code>id</code> and <code>class</code> as appropriate to differentiate your elements so that later you <em>can</em> style them. Remember this is <strong>structure</strong> you are describing.</p>
 <p>It may look approximately like this.</p>
 <p><img src="https://raw.githubusercontent.com/classmoji-staging/content-classmoji-staging-25s/main/mongo-fundamentals/assignments/lab-1-1-html-landing-page/assets/html-layout-1765555370110.png" alt=""></p>
-<p>⚠️⚠️⚠️ 🚀 Take a screencap at this point! You will need to submit this for part of the grade.</p>
-<h3>Git Tags</h3>
+<p>⚠️⚠️⚠️ 🚀&nbsp;Take a screencap at this point! You will need to submit this for part of the grade.</p>
+<div class="heading-block h3-block"><h3>Git Tags</h3></div>
 <p>🐙 To keep track of specific important changes in our repositories, we’re going to be using <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging#_lightweight_tags">git tags</a>. Tags are a way to give a specific git commit a name/label for easy retrieval later. Github uses tags to mark software release versions as well.</p>
-<div class="code-block"><div class="code-header"><span class="code-lang">Code</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span></div><pre><code># first make sure you&#39;ve committed your code
-git commit -am &quot;done with html layout stage&quot;
+<div class="code-block"><div class="code-header"><span class="code-lang">JavaScript</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span></div><pre><code class="language-javascript"># first make sure you've committed your code
+git commit -am "done with html layout stage"
 # when you run git tag it will label the current latest commit
 git tag html
 # tags need to be pushed to github manually
 git push origin --tags</code></pre></div></div>
 <p><strong>Now you can take a break, we’ll learn some CSS in class, and you can come back and make this pretty.</strong></p>
-<h2 style="background-color: #FBF3DB;">You Are Done with the HTML Part 1 of the lab! Now, don’t forget to host it.</h2>
+<div class="heading-block h2-block"><h2>You Are Done with the HTML Part 1 of the lab! Now, don’t forget to host it.</h2></div>
 <p>We will try a different hosting platform this time around. We will be using <a href="http://render.com">render.com</a> as an easy hosting platform with a decent free tier for all our work going forward.  Please <strong>do not overwrite</strong> your domain from SA1.  These static site hosting platforms are fairly straightforward to set up - you connect your GitHub account and publish a specific repository as a static site. <a href="http://Render.com">Render.com</a> HOSTS your site on an internet connected server (ie. “in the cloud”) ☁️.</p>
 <p><img src="https://raw.githubusercontent.com/classmoji-staging/content-classmoji-staging-25s/main/mongo-fundamentals/assignments/lab-1-1-html-landing-page/assets/screen-shot-2022-03-31-at-10-1765555370110.png" alt="Screen Shot 2022-03-31 at 10.15.07 PM.png"></p>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
+<div class="heading-block h2-block"><h2>To Turn In:</h2></div>
 <ul>
-<li>👉 The GitHub assignment Issue will be considered your submission! <strong>To officially turn it in, please comment on the Issue in the repository when you have completed the assignment and mark the issue as closed.</strong></li>
-<li>🙏 In your comment, please include:<ul>
+<li>👉&nbsp;The GitHub assignment Issue will be considered your submission! <strong>To officially turn it in, please comment on the Issue in the repository when you have completed the assignment and mark the issue as closed.</strong></li>
 <li><strong>link to hosted version of the page (render.com)</strong></li>
 <li>couple of sentences on what worked / didn’t</li>
-</ul>
-</li>
-<li>🚀 <strong>also in the comment include</strong>:<ul>
 <li>url to the original landing page you were mimicking and screenshot of the original landing page</li>
 <li>screenshot of your skeleton page in browser</li>
-</ul>
-</li>
-<li>your page should:<ul>
 <li>display as many elements from the original site as possible</li>
 <li>use only pure HTML</li>
 <li>have clean HTML written by hand by you (your html file should only be a few hundred lines).</li>
 <li>have clear document structure with proper semantic naming</li>
 </ul>
-</li>
-</ul>
-<h2 style="background-color: #FBF3DB;">Resources:</h2>
+<div class="heading-block h2-block"><h2>Resources:</h2></div>
 <ul>
 <li><a href="https://share.descript.com/view/fmNivPdtA3C">The DOM with Ijemma</a></li>
 <li><a href="https://share.descript.com/view/1xtv65odJTV">HTML with Ijemma</a></li>
 <li><a href="http://www.w3schools.com/">http://www.w3schools.com</a></li>
 </ul>
-
 </body>
 </html>
